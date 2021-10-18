@@ -1,5 +1,7 @@
 package ir.maktab.model;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
+
 import java.sql.Date;
 
 public class User {
@@ -10,5 +12,5 @@ public class User {
     private String email;
     private String nationalId;
     private Date birthDate;
-    
+
 }
