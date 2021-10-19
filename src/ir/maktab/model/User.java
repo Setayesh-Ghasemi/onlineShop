@@ -1,16 +1,12 @@
 package ir.maktab.model;
 
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
-
-import java.sql.Date;
+import java.util.List;
 
 public class User {
 
     private int id;
-    private String fullName;
-    private String phoneNumber;
-    private String email;
-    private String nationalId;
-    private Date birthDate;
+    private String username;
+    private String password;
+
 
 }
