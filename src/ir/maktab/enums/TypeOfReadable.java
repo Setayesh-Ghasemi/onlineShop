@@ -1,7 +1,7 @@
 package ir.maktab.enums;
 
 public enum TypeOfReadable {
-    
+
     BOOK("book"),
     JOURNAL("journal"),
     NOT_SET("not_set");
